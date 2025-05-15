@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eff2f7;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p,
+a {
+    font-family: var(--ffPrimary);
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #727272;
+    --secondaryColor: #ff742e;
+    --darkColor: #000000;
+    --lightColor: #f1ebe3;
+    --regularFont: 1.6rem;
+    --headingFont: 2rem;
+    --ffPrimary: "Poppins", serif;
+}
+
+.headingparafont{
+    font-size: 1.6rem;
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+.parafont{
+    font-size: 1.4rem;
+    color: #727272;
+}
+.headingfont{
+    font-size: 4rem;
+    color: var(--darkColor);
+    font-weight: 600;
+}
+
+/* project standard classes Ends */
+
+/* Default code Ends here */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .naviconparabox{
+        display: none !important;
+    }
+
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {}
