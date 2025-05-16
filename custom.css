@@ -35,10 +35,6 @@
     color: var(--secondaryColor);
 }
 
-/* .stickynavrow{
-    position: sticky;
-    top: 0rem;
-} */
 
 .stickynavrow {
     position: sticky;
@@ -147,7 +143,7 @@
     padding: 1rem 1rem;
     position: absolute;
     bottom: -1rem;
-    right: 4rem;
+    right: 2rem;
 }
 
 
