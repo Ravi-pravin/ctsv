@@ -23,19 +23,24 @@
 /* .navcol{
     width: 1200px;
 } */
-.navimg {
-    width: 30rem;
+.navbar-brand img{
+    width: 25rem;
 }
 
-.nav-link {
-    margin: 1rem;
+.nav-link a{
     font-size: 1.6rem;
     text-decoration: none;
     color: var(--darkColor);
     font-weight: 500;
+    cursor: pointer;
+   
+}
+.nav-link{
+    padding-right: 2rem;
+   
 }
 
-.nav-link:hover {
+.nav-link a:hover {
     color: var(--secondaryColor);
 }
 

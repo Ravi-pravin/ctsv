@@ -93,6 +93,19 @@ svg {
     font-weight: 600;
 }
 
+/* .nav-link{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--darkColor);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--secondaryColor);
+} */
+
+
+
 
 /* @media (width <=576px) */
 @media (max-width: 576px) {
