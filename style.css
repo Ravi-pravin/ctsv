@@ -120,14 +120,9 @@ svg {
     .navlogoimg{
         width: 20rem;
     }
-    /* .navSection{
-        position: relative;
-    }
     .stickynavrow{
-        position: absolute;
-        right: -15rem;
-        left: 5rem;
-    } */
+        margin-left: 18rem;
+    }
 
 }
 
