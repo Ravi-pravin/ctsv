@@ -117,9 +117,12 @@ svg {
     .horizontalcard h6,p{
         text-align: center;
     }
+    .navlogoimg{
+        width: 8rem;
+    }
     .stickynavrow{
         position: absolute;
-        right: 3rem;
+        right: 1rem;
         top: -2rem;
     }
 
