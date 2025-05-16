@@ -118,12 +118,15 @@ svg {
         text-align: center;
     }
     .navlogoimg{
-        width: 8rem;
+        width: 15rem;
+    }
+    .navSection{
+        position: relative;
     }
     .stickynavrow{
         position: absolute;
-        right: 1rem;
-        top: -2rem;
+        /* right: -15rem; */
+        left:5rem;
     }
 
 }
