@@ -111,6 +111,9 @@ svg {
         align-items: center;
         justify-content: center;
     }
+    .horizontalcard .cardheader{
+        margin-bottom: 1rem;
+    }
     .horizontalcard h6,p{
         text-align: center;
     }
