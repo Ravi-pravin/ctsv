@@ -122,7 +122,7 @@ svg {
     }
     .stickynavrow{
         /* margin-left: 2rem; */
-        position: absolute;
+        position: relative;
         left: 1rem;
         top: 1rem;
     }
