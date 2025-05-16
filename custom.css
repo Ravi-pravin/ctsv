@@ -19,28 +19,19 @@
     padding: 1rem 0rem 1rem 0rem;
 }
 
-
-/* .navcol{
-    width: 1200px;
-} */
 .navbar-brand img{
-    width: 25rem;
+    width: 30rem;
 }
 
-.nav-link a{
+.navbar-nav .nav-item .nav-link{
     font-size: 1.6rem;
     text-decoration: none;
     color: var(--darkColor);
     font-weight: 500;
     cursor: pointer;
-   
+   margin-left:1.5rem;
 }
-.nav-link{
-    padding-right: 2rem;
-   
-}
-
-.nav-link a:hover {
+.navbar-nav .nav-item .nav-link:hover{
     color: var(--secondaryColor);
 }
 

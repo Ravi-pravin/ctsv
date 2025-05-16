@@ -139,6 +139,9 @@ svg {
         left: 1rem;
         top: 1rem;
     }
+    .navbar-nav .nav-link{
+        display: flex;
+    }
 
 }
 
