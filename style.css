@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-wrap: pretty;
-    border: 1px solid rgb(227, 3, 3);
+    /* border: 1px solid rgb(227, 3, 3); */
 }
 
 html {
@@ -116,6 +116,11 @@ svg {
     }
     .horizontalcard h6,p{
         text-align: center;
+    }
+    .stickynavrow{
+        position: absolute;
+        right: 3rem;
+        top: -2rem;
     }
 
 }
