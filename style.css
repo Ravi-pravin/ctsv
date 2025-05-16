@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-wrap: pretty;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html {
@@ -75,8 +75,6 @@ svg {
     --secondaryColor: #ff742e;
     --darkColor: #000000;
     --lightColor: #f1ebe3;
-    --regularFont: 1.6rem;
-    --headingFont: 2rem;
     --ffPrimary: "Poppins", serif;
 }
 
@@ -95,41 +93,17 @@ svg {
     font-weight: 600;
 }
 
-/* project standard classes Ends */
-
-/* Default code Ends here */
-
-/* :::PARENT CONTAINER Code Starts here::: */
-
-header {
-    width: 100%;
-    height: auto;
-}
-
-main {
-    width: 100%;
-    height: auto;
-}
-
-footer {
-    width: 100%;
-    height: auto;
-}
 
 /* @media (width <=576px) */
 @media (max-width: 576px) {
 
-    .grid-1,
+    /* .grid-1,
     .grid-2,
     .grid-3,
     .grid-4 {
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    .naviconparabox{
-        display: none !important;
-    }
+    } */
 
 }
 

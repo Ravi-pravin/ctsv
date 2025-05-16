@@ -42,8 +42,8 @@
 
             </div>
 
-            <div class="row align-items-center justify-content-center py-3">
-                <div class="col d-flex align-items-center justify-content-center" style="max-width: 1200px;">
+            <div class="row align-items-center justify-content-center stickynavrow">
+                <div class="col d-flex align-items-center justify-content-center navcol">
                     <div class="col-6 col-md-3">
                         <figure class="navimg mb-0">
                             <img src="./assets/images/ctsv_logo.jpg" alt="Logo" class="img-fluid">
@@ -68,16 +68,10 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
-
             </div>
         </nav>
-    </header>
 
 
-
-    <main>
 
         <section class="carousel-section py-5">
             <div class="container">
@@ -109,7 +103,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                     <a class="carousel-control-prev" href="#textImageCarousel" role="button" data-slide="prev">
@@ -125,12 +118,13 @@
         </section>
 
 
+    </header>
 
-
+    <main>
 
         <section class="whatwesection">
             <div class="container px-0" style="max-width: 1200px;">
-                <div class="row mx-0">
+                <div class="row mx-0 mt-5">
                     <div class="col-12 px-0">
                         <p class="headingparafont text-center mb-5">WHAT WE DO</p>
                         <h3 class="headingfont text-center mb-5">We’re the engineer of your requirements</h3>
@@ -323,40 +317,44 @@
                 <div class="row">
                     <div class="col-md-6">
                         <figure>
-                            <img src="./assets/images/testimonial1.png" alt="Client" class="img-fluid">
+                            <img src="./assets/images/testimonial1.png" class="testmonialimg img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <p class="headingparafont mb-3">TESTIMONIALS</p>
                         <h3 class="headingfont mb-4">Check what our clients say about us</h3>
 
-                        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
+                        <div id="testimonialCarousel"
+                            class="carousel slide d-flex align-items-start justify-content-center" data-ride="carousel">
+                            <div class="quotationbox">
+                                <i class="fa-solid fa-quote-left" style="color: #fa6400;"></i>
+                            </div>
+                            <div class="carousel-inner d-flex ml-5">
 
                                 <div class="carousel-item active">
-                                    <p class="parafont mb-4">"Their app development was spot-on. Communication was
-                                        smooth and results exceeded expectations."</p>
+                                    <p class="parafont mb-4">Their app development was spot-on. Communication was
+                                        smooth and results exceeded expectations.</p>
                                     <div class="d-flex align-items-center">
                                         <img src="./assets/images/prakash.jpg" alt="John Doe"
                                             class="rounded-circle mr-3"
                                             style="width: 50px; height: 50px; object-fit: cover;">
-                                        <div>
-                                            <strong>Prakash</strong><br>
-                                            <small>mangofruit</small>
+                                        <div class="profilecontentbox">
+                                            <h6>Prakash</h6>
+                                            <p>mangofruit</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="carousel-item">
-                                    <p class="parafont mb-4">"Great team to work with. Our website was delivered ahead
-                                        of schedule with great quality."</p>
+                                    <p class="parafont mb-4">Great team to work with. Our website was delivered ahead
+                                        of schedule with great quality.</p>
                                     <div class="d-flex align-items-center">
                                         <img src="./assets/images/prakash.jpg" alt="Jane Smith"
                                             class="rounded-circle mr-3"
                                             style="width: 50px; height: 50px; object-fit: cover;">
-                                        <div>
-                                            <strong>Prakash</strong><br>
-                                            <small>mangofruit</small>
+                                        <div class="profilecontentbox">
+                                            <h6>Prakash</h6>
+                                            <p>mangofruit</p>
                                         </div>
                                     </div>
                                 </div>
@@ -384,92 +382,20 @@
     </main>
 
 
-<footer>
-  <div class="footersection">
-    <div class="container">
-      <!-- Top Footer -->
-      <div class="row py-5">
-        <div class="col-12 col-md-3 mb-4 mb-md-0">
-          <figure class="footerlogobox">
-            <img src="./assets/images/ctsv_logo.jpg" alt="Logo" class="img-fluid">
-          </figure>
-          <p class="footercontact">ctsvsolutions@gmail.com<br>+91 97874 20717</p>
-        </div>
-
-        <div class="col-12 col-md-3 mb-4 mb-md-0">
-          <h6>Quick Links</h6>
-          <ul class="list-unstyled">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-3 mb-4 mb-md-0">
-          <h6>About</h6>
-          <ul class="list-unstyled">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-3">
-          <h6>Subscribe</h6>
-          <input type="email" placeholder="Enter your email" class="form-control mb-3">
-          <div class="socialicons d-flex">
-            <i class="fa-brands fa-facebook-f mr-2"></i>
-            <i class="fa-brands fa-x-twitter mr-2"></i>
-            <i class="fa-brands fa-google-plus-g mr-2"></i>
-            <i class="fa-brands fa-instagram mr-2"></i>
-            <i class="fa-brands fa-linkedin"></i>
-          </div>
-        </div>
-      </div>
-
-      <!-- Bottom Footer -->
-      <div class="row py-3 border-top">
-        <div class="col-12 col-md-6 text-center text-md-left mb-3 mb-md-0">
-          <p class="mb-0">&copy; 2023 CTSV Solutions Private Limited</p>
-        </div>
-        <div class="col-12 col-md-6 text-center text-md-right">
-          <ul class="list-inline mb-0 footerbottomrowlink">
-            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            <li class="list-inline-item"><a href="#">FAQs</a></li>
-            <li class="list-inline-item"><a href="#">Account</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-    <!-- <footer>
-
+    <footer>
         <div class="footersection">
             <div class="container">
                 <div class="row py-5">
-                    <div class="col d-flex align-items-start justify-content-start flex-column">
-                        <figure class="footerlogobox d-flex align-items-start justify-content-start">
-                            <img src="./assets/images/ctsv_logo.jpg" alt="">
+                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <figure class="footerlogobox">
+                            <img src="./assets/images/ctsv_logo.jpg" alt="Logo" class="img-fluid">
                         </figure>
                         <p class="footercontact">ctsvsolutions@gmail.com<br>+91 97874 20717</p>
                     </div>
-                    <div class="col">
-                        <h6>QUick Links</h6>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h6>about</h6>
-                        <ul>
+
+                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <h6>Quick Links</h6>
+                        <ul class="list-unstyled">
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Blog</a></li>
@@ -477,37 +403,47 @@
                         </ul>
                     </div>
 
-                    <div class="col">
-                        <h6>about</h6>
-                        <input type="gmail" placeholder="Enter your mail ID">
-                        <div class="socialicons">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-x-twitter"></i>
-                            <i class="fa-brands fa-google-plus-g"></i>
-                            <i class="fa-brands fa-instagram"></i>
+                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <h6>About</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About CTSV</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <h6>Subscribe</h6>
+                        <input type="email" placeholder="Enter your email" class="form-control mb-3">
+                        <div class="socialicons d-flex">
+                            <i class="fa-brands fa-facebook-f mr-2"></i>
+                            <i class="fa-brands fa-x-twitter mr-2"></i>
+                            <i class="fa-brands fa-google-plus-g mr-2"></i>
+                            <i class="fa-brands fa-instagram mr-2"></i>
                             <i class="fa-brands fa-linkedin"></i>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col copyright d-flex align-items-center justify-content-start">
-                        <p>Copyright © 2023. All Rights Reserved By <span>CTSV Solutions Private Limited</span></p>
+
+                <div class="row py-3 border-top">
+                    <div class="col-12 col-md-6 text-center text-md-left mb-3 mb-md-0 copyright">
+                        <p class="mb-0">Copyright © 2023. All Rights Reserved By <span>CTSV Solutions Private
+                                Limited</span></p>
                     </div>
-                    <div class="col">
-                        <ul class="d-flex align-items-center justify-content-end footerbottomrowlink">
-                            <li><a href="#">Privacy& policy</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Account</a></li>
+                    <div class="col-12 col-md-6 text-center text-md-right">
+                        <ul class="list-inline mb-0 footerbottomrowlink">
+                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#">FAQs</a></li>
+                            <li class="list-inline-item"><a href="#">Account</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </footer>
 
 
-
-
-    </footer> -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

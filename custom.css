@@ -20,7 +20,9 @@
 }
 
 
-
+/* .navcol{
+    width: 1200px;
+} */
 .navimg {
     width: 30rem;
 }
@@ -37,21 +39,43 @@
     color: var(--secondaryColor);
 }
 
+/* .stickynavrow{
+    position: sticky;
+    top: 0rem;
+} */
+
+.stickynavrow {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
 
-.carousel-section{
-    background-color: #acacac;
+
+.carousel-section {
+    background-image: url(./assets/images/WhatsApp\ Image\ 2025-05-16\ at\ 9.56.55\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.carousel-section h3{
-    font-size: 5rem;
+
+.carousel-section h3 {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }
-.carousel-section p{
+
+.carousel-section p {
     font-size: 1.6rem;
+    line-height: 3rem;
 }
-.carouselbtn{
+
+.carouselbtn {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 50px;
     font-size: 1.4rem;
+    padding: 2rem 3rem 2rem 3rem;
 }
 
 
@@ -126,7 +150,7 @@
     width: 35rem;
     padding: 1rem 1rem;
     position: absolute;
-    bottom: -2rem;
+    bottom: -1rem;
     right: 4rem;
 }
 
@@ -173,13 +197,45 @@
 
 
 
+.testmonialimg {
+    height: 45rem;
+}
 
 .testimonialsection h3 {
     line-height: 6rem;
 }
 
+.carousel-item .parafont {
+    line-height: 3rem;
+}
+
+.profilecontentbox h6 {
+    color: #000000;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.profilecontentbox p {
+    color: var(--ffPrimary);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.fa-quote-left {
+    font-size: 4rem;
+    max-width: 2rem;
+}
 
 
+
+
+.footersection {
+    background-image: url(./assets/images/footer\ pattern-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .footercontact {
     font-size: 1.4rem;
     color: #000000;
@@ -219,13 +275,16 @@
     font-weight: 500;
     margin: 1rem 1rem;
 }
-.copyright p{
+
+.copyright p {
     font-size: 1.4rem;
     color: #727272;
 }
-.copyright span{
+
+.copyright span {
     color: #FF850D;
 }
+
 .footerbottomrowlink a {
     font-size: 1.4rem;
     color: #727272;
@@ -239,9 +298,9 @@
 /* @media (width <=576px) */
 @media (max-width: 576px) {
 
-    .naviconparabox {
+    /* .naviconparabox {
         display: none;
-    }
+    } */
 
 }
 
